@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.moon.messenger">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Database"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".fcm.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.StartPage" />
+        <activity
+            android:name=".activities.RegistrationPage"
+            android:parentActivityName=".activities.StartPage" />
+        <activity
+            android:name=".activities.LoginPage"
+            android:parentActivityName=".activities.StartPage" />
+        <activity android:name=".activities.UserSettings" />
+        <activity android:name=".activities.UserProfile">
+            <intent-filter>
+                <action android:name="in.moon.messenger_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MessagingPage"
+            android:parentActivityName=".activities.MainPage"/>
+    </application>
+
+</manifest>

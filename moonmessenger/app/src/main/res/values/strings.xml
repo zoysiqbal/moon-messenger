@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Moon Messenger</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="default_status">Hi there, I\'m using Moon Messenger</string>
+    <string name="sign_into_account">Sign into account</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="user_profile">User Profile</string>
+    <string name="change_status">CHANGE STATUS</string>
+    <string name="change_image">CHANGE IMAGE</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="send_message">Send Message</string>
+    <string name="username">username</string>
+    <string name="email_address_field">email address</string>
+    <string name="password_field">password</string>
+    <string name="create_a_new_account">create a new account</string>
+    <string name="login">LOGIN</string>
+    <string name="login_to_your_account">login to your account</string>
+    <string name="email_address_login">email address</string>
+    <string name="password_login">password</string>
+    <string name="password_registration">password</string>
+    <string name="email_address_registration">email address</string>
+    <string name="user_settings">user settings</string>
+    <string name="sign_out_menu">sign out</string>
+</resources>

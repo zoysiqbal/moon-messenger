@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "904926705901",
+    "firebase_url": "https://moon-cd2b7.firebaseio.com",
+    "project_id": "moon-cd2b7",
+    "storage_bucket": "moon-cd2b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904926705901:android:afe4e722daf2754c",
+        "android_client_info": {
+          "package_name": "in.moon.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904926705901-318u3igtgqh9ej9frmj8a05m8sh57oca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.moon.messenger",
+            "certificate_hash": "8ff79b6d245ab666e68103eaff30318bd97e0d86"
+          }
+        },
+        {
+          "client_id": "904926705901-0quicicf4m64a8nloj6hpvsnc0sjjgjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6WUQPIKOG68B6coAmGVe_7a0D3AV-z0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904926705901-0quicicf4m64a8nloj6hpvsnc0sjjgjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

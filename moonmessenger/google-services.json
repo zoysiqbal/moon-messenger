@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "583677946979",
+    "firebase_url": "https://moon-messenger-android-b88cd.firebaseio.com",
+    "project_id": "moon-messenger-android-b88cd",
+    "storage_bucket": "moon-messenger-android-b88cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583677946979:android:afe4e722daf2754c",
+        "android_client_info": {
+          "package_name": "in.moon.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583677946979-ke0q6bi59ces0t8om1rc2uns10i5q1u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsoCZw8Em9to4d__cU5KPxGrSskt1i7eg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
